@@ -1,0 +1,2 @@
+class ThakkarsController < ApplicationController
+end
