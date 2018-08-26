@@ -1,0 +1,17 @@
+</br>
+</br>
+</br>
+ <div class="col-md-6 col-md-offset-2">
+<div class="panel panel-default">
+<h4>&nbsp;<%=@thakkars.count%>&nbsp;<b><%="Messages"%></b></h4>
+ <%@thakkars.each do |thakkar|%>
+ <div class="panel panel-default">
+ </br>
+ <ol>
+<li>Name = <%=thakkar.name%></br></li>
+<li>E-mail = <%=thakkar.email%></br></li>
+<li>Message = <%=thakkar.message%></br></li></ol>
+</div>
+<%end%>
+</div>
+</div>

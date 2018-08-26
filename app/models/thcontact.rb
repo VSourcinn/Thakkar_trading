@@ -1,0 +1,2 @@
+class Thcontact < ApplicationRecord
+end
