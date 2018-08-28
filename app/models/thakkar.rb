@@ -1,4 +1,3 @@
 class Thakkar < ApplicationRecord
 
-	
 end

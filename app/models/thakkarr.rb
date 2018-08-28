@@ -1,0 +1,2 @@
+class Thakkarr < ApplicationRecord
+end

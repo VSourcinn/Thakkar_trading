@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Takkar Trading</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/thakkarimage/21148.jpg');
+    min-height: 100%;
+}
+     #text2{
+  position: absolute;
+  opacity: 1;
+  z-index: 4;
+  left: -100px;
+}
+#text1{
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+  right: 0px;
+width:1000px;
+}
+#banner{
+  position: relative;
+  opacity: 1;
+  z-index: 0;
+width:1000px;
+}
+#myHeader{
+                background-image: url(/assets/thakkarimage/adult-architecture-blur-705792.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-origin: content-box;
+                background-size: cover;
+                height: 400px;
+            }
+            #myHeader1{
+                 background-image: url(imgs/adult-architecture-blur-705792.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-origin: content-box;
+                background-size: cover;
+                height: 400px;
+            }
+            #myHeader2{
+                 background-image: url(imgs/10.jpeg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-origin: content-box;
+                background-size: cover;
+                height: 400px;
+            }
+            #myHeader3{
+                background-image: url(imgs/9.jpeg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-origin: content-box;
+                background-size: cover;
+                height: 400px;
+            }
+            #myHeader4{
+                background-image: url(imgs/8.jpeg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-origin: content-box;
+                background-size: cover;
+                height: 400px;
+            }
+            #myHeader5{
+                background-image: url(imgs/3.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-origin: content-box;
+                background-size: cover;
+                height: 400px;
+            }
+</style>
+</head>
+<body>
+<div class="w3-border">
+<div class="w3-bar w3-theme">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Home')">HOME</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Mission')">MISSION AND VISION</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Investment')">INVESTMENT</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'PMS')">PMS</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'About')">ABOUT</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Contact')">CONTACT</button>
+</div>
+</div>
+<div id="Home" class="w3-container city w3-animate-opacity">
+    <!-- Page Content -->
+<div class="w3-display-container" style="margin-bottom:50px">
+    <img  id="banner" src="imgs/9.jpeg" style="width:100%;height: 1000px;">
+    <div id='text1' class="w3-display-bottomleft w3-container w3-amber w3-hover-text-blue w3-hide-small"
+     style="bottom:10%;opacity:0.7;width:70%;position:absolute;top: 650px;height: 100px;;">
+    <h2 ><b>TAKKAR TRADING<br>TOGETHER WE GROW...</b></h2>
+  </div>
+  </div>
+  
+  <div class="w3-row w3-container" style="margin:50px 0">
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-amber">
+      <img src="imgs/21148.jpg" style="width:100%">
+      <h2>Smart Vacation</h2>
+      <p>Full vacation control from your cell phone.</p>
+    </div>
+  </div>
+  
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-amber">
+      <img src="imgs/adult-architecture-blur-705792.jpg" style="width:100%">
+      <h2>Super Offers</h2>
+      <p>Up to 50% offers. Always 25% student offers.</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="w3-row w3-container" style="margin:50px 0">
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-orange">
+      <img src="imgs/alesia-kazantceva-283288-unsplash.jpg" style="width:100%">
+      <h2>Car Rental Included</h2>
+      <p>Wherever you travel our car rental is included.</p>
+    </div>
+  </div>
+  
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-orange">
+      <img src="imgs/analysis-blackboard-board-355952.jpg" style="width:100%">
+      <h2>Realize Your Dreams</h2>
+      <p>Don't wait until it is to late.</p>
+      </div>
+  </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script>
+    function imageAppear(waitTime){
+  var time = waitTime;
+  console.log(time);
+
+  tl = new TimelineMax({delay: time});
+  tl
+    .from(text1, 1, {left:700, opacity:0}, '-=1')
+}
+function bannerAppear(waitTime){
+  var time = waitTime;
+  console.log(time);
+
+  tl = new TimelineMax({delay: time});
+  tl
+    .from(banner, 1, {right:700, opacity:0}, '-=1')
+}
+
+  function animate(){
+    bannerAppear(1)
+      imageAppear(2);
+}
+
+animate();</script>
+
+  <!-- Add Google Maps -->
+<script>
+    function myMap()
+    {
+      myCenter=new google.maps.LatLng(41.878114, -87.629798);
+      var mapOptions= {
+        center:myCenter,
+        zoom:12, scrollwheel: false, draggable: false,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+    
+      var marker = new google.maps.Marker({
+        position: myCenter,
+      });
+      marker.setMap(map);
+    }
+    
+    // Open and close sidebar
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    <!--
+    To use this code on your website, get a free API key from Google.
+    Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+    -->
+    
+  </div>
+  
+  <div id="Mission" class="w3-container city w3-animate-opacity">
+   <!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader1">
+        <div class="w3-center">
+        <h4>TAKKAR TRADINGS</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom">TOGETHER WE GROW...</h1>
+          <div class="w3-padding-32">
+            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">SEE MORE</button>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Modal -->
+      <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-theme-l1"> 
+              <span onclick="document.getElementById('id01').style.display='none'"
+              class="w3-button w3-display-topright">×</span>
+              <h4>Oh snap! We just showed you a modal..</h4>
+              <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-padding">
+              <p>Cool huh? Ok, enough teasing around..</p>
+              <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-theme-l1">
+              <p>Modal footer</p>
+            </footer>
+          </div>
+      </div>
+      
+      
+      <!-- Page content -->
+      <div class="w3-content" style="max-width:1100px">
+      
+        <!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+          <div class="w3-col m6 w3-padding-large w3-hide-small">
+           <img src="imgs/crypto-3569787_1920.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+          </div>
+      
+          <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center">Our Mission</h1><br>
+            <h5 class="w3-center">Tradition since 1889</h5>
+            <p class="w3-large">Our mission is to create long-term value for our clients through a passionate commitment to excellence and a disciplined management process, which together drive a sustained competitive advantage in today's dynamic market situation. We achieve success by providing apt audio, video and lighting solutions and delivering results for customers. </p>
+          </div>
+        </div>
+        
+        <hr>
+        
+        <!-- Menu Section -->
+        <div class="w3-row w3-padding-64" id="menu">
+          <div class="w3-col l6 w3-padding-large">
+            <h1 class="w3-center">Our Vission</h1><br>
+            <h4>Bread Basket</h4>
+            <p class="w3-large">Our mission is to create long-term value for our clients through a passionate commitment to excellence and a disciplined management process, which together drive a sustained competitive advantage in today's dynamic market situation. We achieve success by providing apt audio, video and lighting solutions and delivering results for customers.</p>
+          </div>
+          
+          <div class="w3-col l6 w3-padding-large">
+            <img src="imgs/money1.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+          </div>
+        </div>
+      
+        <hr>
+          </div>
+  </div>
+  
+  <div id="Investment" class="w3-container city w3-animate-opacity">
+   <!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader2">
+        <div class="w3-center">
+        <h4>TAKKAR TRADINGS</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom">TOGETHER WE GROW...</h1>
+          <div class="w3-padding-32">
+            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">SEE MORE</button>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Modal -->
+      <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-theme-l1"> 
+              <span onclick="document.getElementById('id01').style.display='none'"
+              class="w3-button w3-display-topright">×</span>
+              <h4>Oh snap! We just showed you a modal..</h4>
+              <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-padding">
+              <p>Cool huh? Ok, enough teasing around..</p>
+              <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-theme-l1">
+              <p>Modal footer</p>
+            </footer>
+          </div>
+      </div>
+      
+      <!-- Promo Section - "We know design" -->
+      <!-- <div class="w3-container w3-light-grey" style="padding:128px 16px">
+        <div class="w3-row-padding">
+          <div class="w3-col m6">
+            <h3>Investment Management:</h3>
+            <p>Investment management is the professional asset management of various securities (shares, bonds and other securities) and other assets (e.g., real estate) in order to meet specified investment goals for the benefit of the investors. We help our customers in dealing with the right Investment plan for a better future.</p><br>
+                <hr>
+            
+            <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+          </div>
+          <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="img/architecture-bridge-brooklyn-bridge-421927.jpg" alt="Buildings" width="700" height="394">
+          </div>
+        </div>
+      </div> -->
+      
+      
+      
+        <!-- About Section -->
+        <div class="w3-container w3-padding-8 w3-center">  
+          <h3>Investment Management:</h3><br>
+          <p>Investment management is the professional asset management of various securities (shares, bonds and other securities) and other assets (e.g., real estate) in order to meet specified investment goals for the benefit of the investors. We help our customers in dealing with the right Investment plan for a better future.</p>
+          <img src="imgs/24.jpeg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+          <div class="w3-padding-32">
+            <!-- <h4><b>I am Who I Am!</b></h4>
+            <h6><i>With Passion For Real, Good Food</i></h6> -->
+            
+          </div>
+        </div>
+        <hr>
+      
+        <!-- !PAGE CONTENT! -->
+      <div class="w3-main w3-content w3-center" style="max-width:1200px">
+      <h3>Portfolio Management is further of the following types:</h3>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+          <div class="w3-quarter">
+            <img src="imgs/analysis-blackboard-board-355952.jpg" alt="Sandwich" style="width:100%">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="imgs/adult-architecture-blur-705792.jpg" alt="Steak" style="width:100%">
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="imgs/21148.jpg" alt="Cherries" style="width:100%">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="imgs/background-boats-business-439858.jpg" alt="Pasta and Wine" style="width:100%">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </div>
+        
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+          <div class="w3-quarter">
+          
+              <img src="imgs/adult-architecture-blur-705792.jpg" alt="Steak" style="width:100%">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+          <div class="w3-quarter">
+              <img src="imgs/21148.jpg" alt="Cherries" style="width:100%">
+           
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+          <div class="w3-quarter">
+              <img src="imgs/background-boats-business-439858.jpg" alt="Pasta and Wine" style="width:100%">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p>
+          </div>
+          <div class="w3-quarter">
+              <img src="imgs/analysis-blackboard-board-355952.jpg" alt="Sandwich" style="width:100%">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+   
+  <div id="PMS" class="w3-container city w3-animate-opacity">
+       <!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader3">
+        <div class="w3-center">
+        <h4>TAKKAR TRADINGS</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom">TOGETHER WE GROW...</h1>
+          <div class="w3-padding-32">
+            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">SEE MORE</button>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Modal -->
+      <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-theme-l1"> 
+              <span onclick="document.getElementById('id01').style.display='none'"
+              class="w3-button w3-display-topright">×</span>
+              <h4>Oh snap! We just showed you a modal..</h4>
+              <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-padding">
+              <p>Cool huh? Ok, enough teasing around..</p>
+              <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-theme-l1">
+              <p>Modal footer</p>
+            </footer>
+          </div>
+      </div>
+      
+      
+      <!-- Promo Section - "We know design" -->
+      <div class="w3-container w3-light-grey" style="padding:128px 16px">
+          <div class="w3-row-padding">
+            <div class="w3-col m6">
+              <h3>Portfolio Management:</h3>
+              <p>•	Portfolio Management Services account is an investment portfolio in Stocks, Debt and fixed income.</p><br>
+              <p>•	Products managed by a professional money manager, that can potentially be tailored to meet specific investment objectives.</p><br>
+                  <p>•	A PMS is a more personalized investment solution.</p>
+                  <hr>
+              
+              <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+            </div>
+            <div class="w3-col m6">
+              <img class="w3-image w3-round-large" src="imgs/background-boats-business-439858.jpg" alt="Buildings" width="700" height="394">
+            </div>
+          </div>
+        </div>
+      
+        <!-- Work Row -->
+      <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+      
+              <div class="w3-quarter">
+              <h2>Our Services</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              
+              <div class="w3-quarter">
+              <div class="w3-card w3-white">
+                <img src="imgs/21148.jpg" alt="Snow" style="width:100%">
+                <div class="w3-container">
+                <h3>Customer 1</h3>
+                <h4>Trade</h4>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                </div>
+                </div>
+              </div>
+              
+              <div class="w3-quarter">
+              <div class="w3-card w3-white">
+                <img src="imgs/homeb2.jpg" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                <h3>Customer 2</h3>
+                <h4>Trade</h4>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                </div>
+                </div>
+              </div>
+              
+              <div class="w3-quarter">
+              <div class="w3-card w3-white">
+                <img src="imgs/15840.jpg" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+                <h3>Customer 3</h3>
+                <h4>Trade</h4>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                <p>Blablabla</p>
+                </div>
+                </div>
+              </div>
+              
+              </div>
+              
+      
+        <!-- About Section -->
+      <div class="w3-container" style="padding:128px 16px" id="about">
+          <h3 class="w3-center">Portfolio Management is further of the following types:</h3>
+          <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+              <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+              <p class="w3-large">Active Portfolio Management: </p>
+              <p>As the name suggests, in an active portfolio management service, the portfolio managers are actively involved in buying and selling of securities to ensure maximum profits to individuals.</p>
+            </div>
+            <div class="w3-quarter">
+              <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+              <p class="w3-large">Passive Portfolio Management: </p>
+              <p>In a passive portfolio management, the portfolio manager deals with a fixed portfolio designed to match the current market scenario.</p>
+            </div>
+            <div class="w3-quarter">
+              <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+              <p class="w3-large">Discretionary Portfolio management services:</p>
+              <p>In Discretionary portfolio management services, an individual authorizes a portfolio manager to take care of his financial needs on his behalf. The individual issues money to the portfolio manager who in turn takes care of all his investment needs, paper work, documentation, filing and so on. In discretionary portfolio management, the portfolio manager has full rights to take decisions on his client’s behalf.</p>
+            </div>
+            <div class="w3-quarter">
+              <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+              <p class="w3-large">Non-Discretionary Portfolio management services: </p>
+              <p>In non discretionary portfolio management services, the portfolio manager can merely advise the client what is good and bad for him but the client reserves full right to take his own decisions.</p>
+            </div>
+          </div>
+        </div>
+          </div>
+      </div>
+
+       
+  <div id="About" class="w3-container city w3-animate-opacity">
+       <!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader4">
+        <div class="w3-center">
+        <h4>TAKKAR TRADINGS</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom">TOGETHER WE GROW...</h1>
+          <div class="w3-padding-32">
+            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">SEE MORE</button>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Modal -->
+      <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-theme-l1"> 
+              <span onclick="document.getElementById('id01').style.display='none'"
+              class="w3-button w3-display-topright">×</span>
+              <h4>Oh snap! We just showed you a modal..</h4>
+              <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-padding">
+              <p>Cool huh? Ok, enough teasing around..</p>
+              <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-theme-l1">
+              <p>Modal footer</p>
+            </footer>
+          </div>
+      </div>
+          
+          <!-- Footer / About Section -->
+      <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+        <h2>About</h2>
+        <img src="imgs/businessman-3105873_1920.jpg" class="w3-image w3-padding-32" width="800" height="500">
+        <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+          <p>Thakkar is a young and fast growing company, Thakkar Trading was found in the year 2005. We are
+      specialized in Portfolio Management and Investment Management. We are very strong in Analyzing the
+      Market on day to day basis. Most importantly, we have dedicated team who are ready to provide
+      efficient and professional services to our customers at any time. Our managing department is
+      responsible for company operation and development planning. Constant efforts are taken by them to
+      make our services system more efficient, thus serve our customers better.</p>
+        </form>
+        <br>
+      </footer>
+          
+          <!-- Container (About Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">Founder</h3>
+        <p class="w3-center"><em>I love Trading</em></p>
+        <p>Founder - Ms Prithi.S is an Business Graduate by qualification, whose entrepreneurial energy drove her to found Thakkar Trading in 2005.</p>
+        <div class="w3-row">
+          <div class="w3-col m6 w3-center w3-padding-large">
+            <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
+            <img src="https://pbs.twimg.com/profile_images/722755575847759876/XocGYdhS.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="233">
+          </div>
+      
+          <!-- Hide this text on small devices -->
+          <div class="w3-col m6 w3-hide-small w3-padding-large">
+            <p>Overall 15+ years of experience in stock market, worked in prestigious company such as Karvy . Prithi ‘ s leadership skills have helped the group navigate through the turbulent times with a strong sense of purpose and clarity of thought.<br><br>
+              Overall 15+ years of experience in stock market, worked in prestigious company such as Karvy . Prithi ‘ s leadership skills have helped the group navigate through the turbulent times with a strong sense of purpose and clarity of thought<br><br>
+              Overall 15+ years of experience in stock market, worked in prestigious company such as Karvy . Prithi ‘ s leadership skills have helped the group navigate through the turbulent times with a strong sense of purpose and clarity of thought</p>
+          </div>
+        </div>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+        </div>
+      </div>
+       
+      <h3 class="w3-center">Services</h3>
+      <div class="w3-row-padding w3-center w3-margin-top">
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Investment Management</h3><br>
+        <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+        <p>Built-in responsiveness</p>
+        <p>Mobile first fluid grid</p>
+        <p>Fits any screen sizes</p>
+        <p>PC Tablet and Mobile</p>
+        </div>
+      </div>
+      
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Portofolio Management</h3><br>
+        <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+        <p>Standard CSS only</p>
+        <p>Easy to learn</p>
+        <p>No need for jQuery</p>
+        <p>No JavaScript library</p>
+        </div>
+      </div>
+      
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Design</h3><br>
+        <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+        <p>Paper like design</p>
+        <p>Bold colors and shadows</p>
+        <p>Equal across platforms</p>
+        <p>Equal across devices</p>
+        </div>
+      </div>
+      </div>
+      </div>
+
+       
+  <div id="Contact" class="w3-container city w3-animate-opacity">
+       <!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader5">
+        <div class="w3-center">
+        <h4>TAKKAR TRADINGS</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom">TOGETHER WE GROW...</h1>
+          <div class="w3-padding-32">
+            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">SEE MORE</button>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Modal -->
+      <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-theme-l1"> 
+              <span onclick="document.getElementById('id01').style.display='none'"
+              class="w3-button w3-display-topright">×</span>
+              <h4>Oh snap! We just showed you a modal..</h4>
+              <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-padding">
+              <p>Cool huh? Ok, enough teasing around..</p>
+              <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-theme-l1">
+              <p>Modal footer</p>
+            </footer>
+          </div>
+      </div>
+      
+      <div class="w3-container w3-padding-32 w3-black w3-opacity w3-card w3-hover-opacity-off" style="margin:32px 0;">
+              <h2>Get the best offers first!</h2>
+              <p>Join our newsletter.</p>
+              <label>E-mail</label>
+              <input class="w3-input w3-border" type="text" placeholder="Your Email address">
+              <button type="button" class="w3-button w3-red w3-margin-top">Subscribe</button>
+            </div>
+          
+            <div class="w3-container" id="contact">
+              <h2>Contact</h2>
+              <p>If you have any questions, do not hesitate to ask them.</p>
+              <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> REGUS-2240, Unit-22, World Trade Centre, Brigade Gateway Campus, Rajajinagar Extn,
+              Malleshwaram(W), Bengaluru, karnataka 560055 
+              <br>
+              <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: 9738534377<br>
+              <i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: Suman.s.murthy@gmail.com<br>
+              <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+              </form>
+            </div>
+          
+          <!-- End page content -->
+          </div>
+                 
+           <!-- Footer -->
+    <footer class="w3-padding-32 w3-black w3-center w3-margin-top">
+            <h5>Find Us On</h5>
+            <div class="w3-xlarge w3-padding-16">
+              <i class="fa fa-facebook-official w3-hover-opacity"></i>
+              <i class="fa fa-instagram w3-hover-opacity"></i>
+              <i class="fa fa-snapchat w3-hover-opacity"></i>
+              <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+              <i class="fa fa-twitter w3-hover-opacity"></i>
+              <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">TAKKAR TRADING</a></p>
+          </footer>
+          <!-- Add Google Maps -->
+          <script>
+          function myMap()
+          {
+            myCenter=new google.maps.LatLng(41.878114, -87.629798);
+            var mapOptions= {
+              center:myCenter,
+              zoom:12, scrollwheel: false, draggable: false,
+              mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+          
+            var marker = new google.maps.Marker({
+              position: myCenter,
+            });
+            marker.setMap(map);
+          }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+          <!--
+          To use this code on your website, get a free API key from Google.
+          Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+          -->
+      </div>
+
+
+  </div>
+
+<script>
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+      activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+</script>
+
+</body>

@@ -3,10 +3,12 @@ class ThakkarsController < ApplicationController
 def index
 @thakkar = Thakkar.new
 
+@thakkars = Thakkar.all
 end
 
 
 def new
+
 
 end
 
@@ -19,19 +21,15 @@ end
 
 def show
 
+
 end
 
 def edit
- @thakkar = Thakkar.find(params[:id])
+
  
  end
  	def update
-		@thakkar = Thakkar.find(params[:id])
-		if @thakkar.update(thakk_params)
-		   redirect_to thakkars_path
-		else
-			render 'edit'
-		end
+		
 	end
 
 	def destroy
@@ -43,7 +41,7 @@ def edit
 
 
 def thakk_params
-	params.require(:thakkar).permit(:name,:email,:message,:contact)
+	params.require(:thakkar).permit(:name,:email,:message)
 end
 
 

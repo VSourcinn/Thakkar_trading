@@ -1,6 +1,12 @@
 class ThcontactsController < ApplicationController
 def index
 
-	@thakkars = Thakkar.all
+
+end
+
+def new
+	
+	
+	
 end
 end

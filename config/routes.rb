@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 root to: "thakkars#index"
   resources :thakkars
   resources :thcontacts
+  resources :thakkarrs
 end
